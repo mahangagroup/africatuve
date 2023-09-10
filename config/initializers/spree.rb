@@ -84,16 +84,16 @@ end
 if Rails.env.production?
   attachment_config = {
     s3_credentials: {
-      access_key_id:     ENV['AWS_ACCESS_KEY_ID'],
-      secret_access_key: ENV['AWS_SECRET_ACCESS_KEY'],
-      bucket:            ENV['S3_BUCKET_NAME']
+      access_key_id:     ENV['AKIA34PYVIQNOYTU34YB'],
+      secret_access_key: ENV['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'],
+      bucket:            ENV['bucket-8r2hpz']
     },
 
     storage:        :s3,
     s3_headers:     { 'Cache-Control' => 'max-age=31557600' },
     s3_protocol:    'https',
-    bucket:         ENV['S3_BUCKET_NAME'],
-    url:            ':s3_domain_url',
+    bucket:         ENV['bucket-8r2hpz'],
+    url:            ':bucket-8r2hpz.s3.us-east-2.amazonaws.com',
 
     styles: {
       mini:     '48x48>',
