@@ -12,6 +12,8 @@ gem "sprockets-rails"
 #Amazon
 gem "aws-sdk-s3"
 
+gem "pg"
+
 # Use sqlite3 as the database for Active Record
 gem "sqlite3", "~> 1.4"
 
